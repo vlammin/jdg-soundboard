@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  dialog_sound_detail.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/sound_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:text="@string/dummy_item_text"
+        android:textColor="@color/yellow"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/see_video"
+            style="@style/DetailButton.SeeEpisode"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:contentDescription="@string/see_episode"
+            android:gravity="center"
+            android:src="@drawable/ic_youtube"/>
+
+        <RelativeLayout
+            android:id="@+id/video_details"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="3dp"
+                android:text="@string/dummy_video_title"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/video_publish_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/video_title"
+                android:layout_marginTop="6dp"
+                android:text="@string/publish_date"
+                android:textColor="@color/grey_light"
+                android:textSize="13sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/grey_dark"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/set_as_alarm"
+            style="@style/DetailButton"
+            android:drawableLeft="@drawable/ic_alarm"
+            android:drawableStart="@drawable/ic_alarm"
+            android:text="@string/set_as_alarm"/>
+
+        <Button
+            android:id="@+id/set_as_notification"
+            style="@style/DetailButton"
+            android:drawableLeft="@drawable/ic_notification"
+            android:drawableStart="@drawable/ic_notification"
+            android:text="@string/set_as_notification"/>
+
+        <Button
+            android:id="@+id/set_as_ringtone"
+            style="@style/DetailButton"
+            android:drawableLeft="@drawable/ic_ringtone"
+            android:drawableStart="@drawable/ic_ringtone"
+            android:text="@string/set_as_ringtone"/>
+
+        <Button
+            android:id="@+id/set_as_favorite"
+            style="@style/DetailButton"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:drawableStart="@drawable/ic_favorite"
+            android:text="@string/add_favorite"/>
+
+    </LinearLayout>
+
+</LinearLayout>

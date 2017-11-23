@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  grid_row.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/grid_header"/>
+
+    <LinearLayout
+        android:id="@+id/grid_row_item_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="0dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="0dp"
+        android:paddingStart="12dp">
+
+        <include layout="@layout/grid_item"/>
+
+        <include layout="@layout/grid_item"/>
+
+    </LinearLayout>
+
+</LinearLayout>

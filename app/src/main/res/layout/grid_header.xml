@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  grid_header.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/grid_row_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/no_sound"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</merge>

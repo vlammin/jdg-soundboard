@@ -1,0 +1,17 @@
+<!--
+  styles.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<resources>
+
+    <!-- Application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/grey_primary</item>
+        <item name="android:colorPrimaryDark">@color/grey_primary_dark</item>
+        <item name="android:textColorPrimary">@color/yellow</item>
+    </style>
+
+</resources>

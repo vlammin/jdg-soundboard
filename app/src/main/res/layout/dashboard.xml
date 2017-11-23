@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  dashboardJDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        style="@style/DashboardRow">
+
+        <!-- All sounds -->
+        <RelativeLayout
+            android:id="@+id/rl_cat1"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat1"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat1_allsounds"
+                    android:text="@string/cat1_allsounds"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat1_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat1"
+                    android:text="@string/cat1_allsounds"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/separator_vertical"/>
+
+        <!-- Cat2 -->
+        <RelativeLayout
+            android:id="@+id/rl_cat2"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat2"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat2_music"
+                    android:text="@string/cat2_music"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat2_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat2"
+                    android:text="@string/cat2_music"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        style="@style/DashboardRow">
+
+        <!-- Cat3 -->
+        <RelativeLayout
+            android:id="@+id/rl_cat3"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat3"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat3_gamesucks"
+                    android:text="@string/cat3_gamesucks"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat3_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat3"
+                    android:text="@string/cat3_gamesucks"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/separator_vertical"/>
+
+        <!-- Cat4 -->
+        <RelativeLayout
+            android:id="@+id/rl_cat4"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat4"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat4_rage"
+                    android:text="@string/cat4_rage"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat4_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat4"
+                    android:text="@string/cat4_rage"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        style="@style/DashboardRow">
+
+        <!-- Cat5 -->
+        <RelativeLayout
+            android:id="@+id/rl_cat5"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat5"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat5_cult"
+                    android:text="@string/cat5_cult"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat5_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat5"
+                    android:text="@string/cat5_cult"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/separator_vertical"/>
+
+        <!-- New sounds -->
+        <RelativeLayout
+            android:id="@+id/rl_cat6"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat6"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat6_new"
+                    android:text="@string/cat6_new"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat6_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat6"
+                    android:text="@string/cat6_new"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/separator_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/row4"
+        style="@style/DashboardRow">
+
+        <!-- Favorites -->
+        <RelativeLayout
+            android:id="@+id/rl_cat7"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat7"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat7_favorite"
+                    android:text="@string/cat7_favorite"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat7_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat7"
+                    android:text="@string/cat7_favorite"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/separator_vertical"/>
+
+        <!-- Search -->
+        <RelativeLayout
+            android:id="@+id/rl_cat8"
+            style="@style/DashboardItemWrapper">
+
+            <RelativeLayout style="@style/DashboardItem">
+
+                <Button
+                    android:id="@+id/btn_cat8"
+                    style="@style/DashboardButton"
+                    android:drawableTop="@drawable/ic_cat8_search"
+                    android:text="@string/cat8_search"
+                    android:textColor="@color/yellow"/>
+
+                <TextView
+                    android:id="@+id/cat8_count"
+                    style="@style/DashboardItemContent"
+                    android:layout_below="@+id/btn_cat8"
+                    android:text="@string/cat8_search"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

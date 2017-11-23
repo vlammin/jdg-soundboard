@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  color.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<resources>
+    <color name="grey_dark">#616161</color>
+    <color name="grey_light">#bdbdbd</color>
+    <color name="grey_primary">#424242</color>
+    <color name="grey_primary_dark">#212121</color>
+    <color name="red">#f44336</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_overlay">#66ffffff</color>
+    <color name="yellow">#ffc53e</color>
+    <color name="yellow_dark">#f9a825</color>
+    <color name="yellow_light">#ffe082</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  soundboard.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_bar_sort"
+        android:title="@string/sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_default"
+                android:title="@string/sort_default"/>
+
+            <item
+                android:id="@+id/sort_video_title"
+                android:title="@string/sort_video_title"/>
+
+            <item
+                android:id="@+id/sort_video_publish_date_asc"
+                android:title="@string/sort_video_publish_date_asc"/>
+
+            <item
+                android:id="@+id/sort_video_publish_date_desc"
+                android:title="@string/sort_video_publish_date_desc"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_bar_home"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+
+</menu>

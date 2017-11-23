@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--
+  layout_selector.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  	<item android:state_focused="true" android:drawable="@color/white_overlay"/>
+    <item android:state_pressed="true" android:drawable="@color/white_overlay" />
+    <item android:drawable="@color/transparent"/> 
+ </selector>

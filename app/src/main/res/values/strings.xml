@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  strings.xml
+  JDGSoundboard
+
+  Copyright (c) 2017 Vincent Lammin
+  -->
+
+<resources>
+    <string name="about_title">À propos</string>
+    <string name="about_label">À propos</string>
+    <string name="about_date">11/2017</string>
+    <string name="add_favorite">Ajouter aux favoris</string>
+    <string name="app_name">JDG Soundboard</string>
+    <string name="app_ver">v3.0.0</string>
+    <string name="author">Atmx (aka Vincent Lammin)</string>
+
+    <string name="close">Fermer</string>
+    <string name="cat1_allsounds">Tous les sons</string>
+    <string name="cat2_music">Musiques</string>
+    <string name="cat3_gamesucks">Jeu de merde</string>
+    <string name="cat4_rage">Rage</string>
+    <string name="cat5_cult">Cultissimes</string>
+    <string name="cat6_new">Nouveaux sons</string>
+    <string name="cat7_favorite">Favoris</string>
+    <string name="cat8_search">Recherche</string>
+
+    <string name="delete_favorite">Supprimer des favoris</string>
+    <string name="dummy_item_text">Les dents c’est dans la poubelle jaune</string>
+    <string name="dummy_player_text">00:00</string>
+    <string name="dummy_video_title">Joueur du Grenier - Hors-série - Les publicités 2 !</string>
+
+    <string name="episode">Episode</string>
+    <string name="error_external_not_available">Stockage externe non disponible !</string>
+    <string name="error_get_rss">Impossible de récupérer le flux RSS !</string>
+    <string name="error_write_settings">Impossible de modifier les paramètres système !</string>
+    <string name="error_write_external">Impossible d\'écrire sur le stockage externe !</string>
+
+    <string name="home">Accueil</string>
+
+    <string name="in_progress">Récupération en cours&#8230;</string>
+
+    <string name="jdg">Joueur du Grenier</string>
+
+    <string name="modification_done_alarm">Ajouté dans les alarmes disponibles !</string>
+    <string name="modification_done_notification">Notification modifiée !</string>
+    <string name="modification_done_ringtone">Sonnerie modifiée !</string>
+
+    <string name="new_sound">Nouveau</string>
+    <string name="no_sound">Aucun son</string>
+
+    <string name="perm_denied">Permissions refusées</string>
+    <string name="perm_denied_with_never_ask">Permissions refusées - Modifiez les permissions dans les paramètres Android</string>
+    <string name="perm_rationale">Les permissions permettent de modifier les sonneries/notifications/alarmes</string>
+    <string name="publish_date">Date de sortie</string>
+
+    <string name="search">Recherche</string>
+    <string name="search_a_sound">Rechercher un son</string>
+    <string name="see_episode">Voir l\'épisode sur YouTube</string>
+    <string name="set_as_alarm">Ajouter aux alarmes</string>
+    <string name="set_as_notification">Mettre en notification</string>
+    <string name="set_as_ringtone">Mettre en sonnerie</string>
+    <string name="sort">Trier</string>
+    <string name="sort_default">Ordre alphabétique</string>
+    <string name="sort_video_title">Vidéo (titre)</string>
+    <string name="sort_video_publish_date_asc">Vidéo (+ ancienne)</string>
+    <string name="sort_video_publish_date_desc">Vidéo (+ récente)</string>
+    <string name="sound">son</string>
+    <string name="sounds">sons</string>
+    <string name="sound_add_favorite">Ajouté dans les favoris !</string>
+    <string name="sound_already_favorite">Son déjà dans les favoris !</string>
+    <string name="sound_delete_favorite">Son supprimé des favoris !</string>
+
+    <string name="touch_to_retry">Appuyer pour réessayer</string>
+
+    <string name="url_rss">http://www.joueurdugrenier.fr/feed</string>
+    <string name="url_source">www.joueurdugrenier.fr</string>
+    <string name="url_youtube">http://www.youtube.com/user/joueurdugrenier?feature=watch</string>
+    <string name="url_youtube_watch">http://www.youtube.com/watch?v=</string>
+
+    <string name="youtube_channel">Chaîne YouTube</string>
+
+    <plurals name="sound_count">
+        <item quantity="zero">Aucun son</item>
+        <item quantity="one">%1$d son</item>
+        <item quantity="other">%1$d sons</item>
+    </plurals>
+</resources>
