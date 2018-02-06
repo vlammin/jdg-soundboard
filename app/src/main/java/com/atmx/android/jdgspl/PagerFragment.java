@@ -132,7 +132,7 @@ public class PagerFragment extends Fragment {
                 break;
             default:
                 soundSections = soundModel.getAllByCategoryIdMap(
-                    SoundboardActivity.sTitles.get(position),
+                    activity.getCategoryId(position),
                     sort,
                     order
                 );

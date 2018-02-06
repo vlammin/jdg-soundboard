@@ -35,9 +35,10 @@ import com.atmx.android.jdgspl.models.DbHelper;
 import com.atmx.android.jdgspl.objects.RssEntry;
 import com.atmx.android.jdgspl.tools.Player;
 
-/* Presage service */
 import io.presage.Presage;
 import io.presage.ads.PresageInterstitial;
+
+/* Presage service */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -148,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
     private void initDashboardElement(
         final int layoutId,
         final int textViewId,
-        final int stringId,
+        final int categoryId,
         String mode
     ) {
         Long count;
@@ -166,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
                 count = null;
                 break;
             default:
-                count = dbHelper.getSoundModel().getCountByCategoryId(stringId);
+                count = dbHelper.getSoundModel().getCountByCategoryId(categoryId);
                 break;
         }
 
@@ -185,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout layout = findViewById(layoutId);
         layout.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                onDashboardItemClick(stringId);
+                onDashboardItemClick(categoryId);
             }
         });
     }
@@ -222,9 +223,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void onDashboardItemClick(int catStringId) {
+    public void onDashboardItemClick(int categoryId) {
         Intent i = new Intent(getBaseContext(), SoundboardActivity.class);
-        i.putExtra("startPage", catStringId);
+        i.putExtra("categoryId", categoryId);
         startActivityForResult(i, 0);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }

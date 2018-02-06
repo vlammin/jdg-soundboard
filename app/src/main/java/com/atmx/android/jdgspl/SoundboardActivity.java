@@ -31,7 +31,8 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class SoundboardActivity extends AppCompatActivity {
 
@@ -39,7 +40,16 @@ public class SoundboardActivity extends AppCompatActivity {
     static final String STATE_ORDER = "stateOrder";
     static final String STATE_SEARCH = "stateSearch";
 
-    public static ArrayList<Integer> sTitles;
+    static final List<Integer> titles = Arrays.asList(
+        R.string.cat1_allsounds,
+        R.string.cat2_music,
+        R.string.cat3_gamesucks,
+        R.string.cat4_rage,
+        R.string.cat5_cult,
+        R.string.cat6_new,
+        R.string.cat7_favorite,
+        R.string.cat8_search
+    );
 
     private String sort = SoundModel.Sort.TITLE;
     private String order = "ASC";
@@ -61,23 +71,13 @@ public class SoundboardActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar_soundboard);
         setSupportActionBar(toolbar);
 
-        sTitles = new ArrayList<>();
-        sTitles.add(R.string.cat1_allsounds);
-        sTitles.add(R.string.cat2_music);
-        sTitles.add(R.string.cat3_gamesucks);
-        sTitles.add(R.string.cat4_rage);
-        sTitles.add(R.string.cat5_cult);
-        sTitles.add(R.string.cat6_new);
-        sTitles.add(R.string.cat7_favorite);
-        sTitles.add(R.string.cat8_search);
-
-        int startPage = sTitles.indexOf(b.getInt("startPage"));
+        int startPage = titles.indexOf(b.getInt("categoryId"));
         if (startPage == -1) startPage = 0;
 
         ViewPager mViewPager = findViewById(R.id.pager);
         PagerAdapter mPagerAdapter = new SoundboardPagerAdapter(
             getSupportFragmentManager(),
-            sTitles,
+            titles,
             this
         );
         mViewPager.setAdapter(mPagerAdapter);
@@ -198,6 +198,10 @@ public class SoundboardActivity extends AppCompatActivity {
 
     public void setSearch(String search) {
         this.search = search;
+    }
+
+    public int getCategoryId(int position) {
+        return titles.get(position);
     }
 
     /**

@@ -14,14 +14,14 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.atmx.android.jdgspl.PagerFragment;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class SoundboardPagerAdapter extends FragmentStatePagerAdapter {
 
-    private ArrayList<Integer> mTitles;
+    private List<Integer> mTitles;
     private Context mContext;
 
-    public SoundboardPagerAdapter(FragmentManager fm, ArrayList<Integer> titles, Context context) {
+    public SoundboardPagerAdapter(FragmentManager fm, List<Integer> titles, Context context) {
         super(fm);
         this.mContext = context;
         this.mTitles = titles;
