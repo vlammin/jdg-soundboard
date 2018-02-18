@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  sounds.xml
+  videos.xml
   JDGSoundboard
 
   Copyright (c) 2017 Vincent Lammin
@@ -1858,463 +1858,547 @@
     <sound
         category="@string/cat4_rage"
         custom_id="A0265"
-        new="1"
+        new="0"
         resource="@raw/vous_aviez_completement_crame"
         title="Vous aviez complètement cramé ?"
         video-youtube-id="ugytTmQbfzI"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0266"
-        new="1"
+        new="0"
         resource="@raw/je_suis_le_swat"
         title="Je suis le SWAT"
         video-youtube-id="ugytTmQbfzI"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0267"
-        new="1"
+        new="0"
         resource="@raw/salut_je_suis_une_petite_merde"
         title="Salut je suis une petite merde !"
         video-youtube-id="nssMO0courw"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0268"
-        new="1"
+        new="0"
         resource="@raw/pourquoi_tu_t_es_pas_laisse_ecraser"
         title="Pourquoi tu t’es pas laissé écraser ?"
         video-youtube-id="nssMO0courw"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0269"
-        new="1"
+        new="0"
         resource="@raw/juste_ferme_ta_gueule"
         title="Juste… ferme ta gueule !"
         video-youtube-id="nssMO0courw"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0270"
-        new="1"
+        new="0"
         resource="@raw/les_dents_c_est_dans_la_poubelle_jaune"
         title="Les dents c’est dans la poubelle jaune"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0271"
-        new="1"
+        new="0"
         resource="@raw/j_etais_en_train_de_reparer_la_plage"
         title="J’étais en train de réparer la plage"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0272"
-        new="1"
+        new="0"
         resource="@raw/c_est_quoi_ce_cadrage"
         title="C'est quoi ce cadrage ?"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0273"
-        new="1"
+        new="0"
         resource="@raw/vive_les_galettes_saucisses"
         title="Vive les galettes saucisses !"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0274"
-        new="1"
+        new="0"
         resource="@raw/tableaux_de_la_renaissance"
         title="Tableaux de la renaissance"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0275"
-        new="1"
+        new="0"
         resource="@raw/ya_encore_un_peu_de_place"
         title="Ya encore un peu de place…"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0276"
-        new="1"
+        new="0"
         resource="@raw/bloquons_la_porte"
         title="Bloquons la porte !"
         video-youtube-id="rVleqJsAV3A"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0277"
-        new="1"
+        new="0"
         resource="@raw/vous_etes_si_nuls_que_ca"
         title="Vous êtes si nuls que ça ?"
         video-youtube-id="vpU6jz301MQ"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0278"
-        new="1"
+        new="0"
         resource="@raw/explication_en_chanson"
         title="Explication en chanson"
         video-youtube-id="vpU6jz301MQ"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0279"
-        new="1"
+        new="0"
         resource="@raw/connard"
         title="Connard !"
         video-youtube-id="vpU6jz301MQ"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0280"
-        new="1"
+        new="0"
         resource="@raw/tu_va_roter_du_sang"
         title="Tu va roter du sang !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0281"
-        new="1"
+        new="0"
         resource="@raw/mange_mes_nouilles"
         title="Mange mes nouilles !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0282"
-        new="1"
+        new="0"
         resource="@raw/le_jeu_est_une_gaufre_a_la_merde"
         title="Le jeu est une gaufre à la merde !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0283"
-        new="1"
+        new="0"
         resource="@raw/chauffeur_si_t_es_champion"
         title="Chauffeur si t’es champion"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0284"
-        new="1"
+        new="0"
         resource="@raw/ballon_de_plage_decepticon"
         title="Ballon de plage Decepticon"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0285"
-        new="1"
+        new="0"
         resource="@raw/manche_de_frein_a_main"
         title="Manche de frein à main"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0286"
-        new="1"
+        new="0"
         resource="@raw/vous_etes_astronomiquement_cons"
         title="Vous êtes astronomiquement cons !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0287"
-        new="1"
+        new="0"
         resource="@raw/eh_dis_donc_jamy"
         title="Eh dis donc Jamy…"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0288"
-        new="1"
+        new="0"
         resource="@raw/c_est_pas_un_bug_j_ai_oublie"
         title="C’est pas un bug j’ai oublié !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0289"
-        new="1"
+        new="0"
         resource="@raw/laisse_moi_mourrir"
         title="Laisse-moi mourir !"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0290"
-        new="1"
+        new="0"
         resource="@raw/godemiche_de_satan"
         title="Godemiché de Satan"
         video-youtube-id="uHQ6SVDVltc"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0291"
-        new="1"
+        new="0"
         resource="@raw/pub_dvd_saisons_1_2_3"
         title="Pub DVD saisons 1-2-3"
         video-youtube-id="VIj2lcOl5As"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0292"
-        new="1"
+        new="0"
         resource="@raw/on_dirait_la_fusion"
         title="On dirait la fusion..."
         video-youtube-id="qgSX5X52Cs4"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0293"
-        new="1"
+        new="0"
         resource="@raw/monstre"
         title="Monstre !"
         video-youtube-id="qgSX5X52Cs4"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0294"
-        new="1"
+        new="0"
         resource="@raw/la_violence_n_est_pas_une_solution"
         title="La violence n’est pas une solution"
         video-youtube-id="l5-FtcHY6QA"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0295"
-        new="1"
+        new="0"
         resource="@raw/bite"
         title="Bite !"
         video-youtube-id="l5-FtcHY6QA"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0296"
-        new="1"
+        new="0"
         resource="@raw/pute"
         title="Pute !"
         video-youtube-id="l5-FtcHY6QA"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0297"
-        new="1"
+        new="0"
         resource="@raw/je_vais_crever"
         title="Je vais crever !"
         video-youtube-id="sYc5E_7vwLA"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0298"
-        new="1"
+        new="0"
         resource="@raw/ta_mere_la_planche"
         title="Ta mère la planche !"
         video-youtube-id="sYc5E_7vwLA"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0299"
-        new="1"
+        new="0"
         resource="@raw/je_suis_un_genie_dis_donc"
         title="Je suis un génie dis-donc !"
         video-youtube-id="sYc5E_7vwLA"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0300"
-        new="1"
+        new="0"
         resource="@raw/c_est_joueur_du_grenier"
         title="C’est Joueur Du Grenier"
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0301"
-        new="1"
+        new="0"
         resource="@raw/frapper_un_mec_dans_les_couilles"
         title="Frapper un mec dans les couilles..."
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0302"
-        new="1"
+        new="0"
         resource="@raw/grrrr"
         title="Grrrr !"
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0303"
-        new="1"
+        new="0"
         resource="@raw/rage_4"
         title="Rage (4)"
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0304"
-        new="1"
+        new="0"
         resource="@raw/mais_putain_mettez_pas_un_ennemi"
         title="Mais putain mettez pas un ennemi !"
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0305"
-        new="1"
+        new="0"
         resource="@raw/nein_nein_nein_nein"
         title="Nein nein nein nein !"
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0306"
-        new="1"
+        new="0"
         resource="@raw/ce_qui_permettra_de_ramasser"
         title="Ce qui permettra de ramasser..."
         video-youtube-id="nshFXWEKxs4"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0307"
-        new="1"
+        new="0"
         resource="@raw/pub_dvd_saison_4"
         title="Pub DVD saison 4"
         video-youtube-id="bwN9WP1CBi0"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0308"
-        new="1"
+        new="0"
         resource="@raw/serieux_c_est_une_superette"
         title="Sérieux c’est une supérette ?"
         video-youtube-id="-6J8Mf_MfCo"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0309"
-        new="1"
+        new="0"
         resource="@raw/j_ai_une_arme_a_blanc"
         title="J’ai une arme à blanc ?"
         video-youtube-id="-6J8Mf_MfCo"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0310"
-        new="1"
+        new="0"
         resource="@raw/merci_captain_obvious"
         title="Merci Captain Obvious !"
         video-youtube-id="cyz95hcUUDA"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0311"
-        new="1"
+        new="0"
         resource="@raw/allez_vous_faire_enculeeer"
         title="Allez vous faire enculeeer !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat2_music"
         custom_id="A0312"
-        new="1"
+        new="0"
         resource="@raw/c_est_une_idee_de_merde"
         title="C'est une idée de merde"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0313"
-        new="1"
+        new="0"
         resource="@raw/ca_ca_porte_un_nom"
         title="Ça ça porte un nom..."
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0314"
-        new="1"
+        new="0"
         resource="@raw/dieu_s_il_vous_plait"
         title="Dieu s'il vous plaît..."
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat4_rage"
         custom_id="A0315"
-        new="1"
+        new="0"
         resource="@raw/elle_est_ou_ta_hitbox"
         title="Elle est où ta hitbox ?"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0316"
-        new="1"
+        new="0"
         resource="@raw/he_les_enfants"
         title="Hé les enfants !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0317"
-        new="1"
+        new="0"
         resource="@raw/mettre_des_paillettes_sur_un_cadavre"
         title="Mettre des paillettes sur un cadavre"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0318"
-        new="1"
+        new="0"
         resource="@raw/ok_ca_y_est_je_hais_ce_jeu"
         title="Ok ça y est je hais ce jeu !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0319"
-        new="1"
+        new="0"
         resource="@raw/okay"
         title="Okay !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0320"
-        new="1"
+        new="0"
         resource="@raw/qu_est_ce_que_c_est_que_cette_horreur"
         title="Qu'est ce que c'est que cette horreur ?"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0321"
-        new="1"
+        new="0"
         resource="@raw/tortues_ninja_c_etait_vachement_mieux"
         title="Tortues Ninja c'était vachement mieux !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0322"
-        new="1"
+        new="0"
         resource="@raw/y_en_a_qui_bossent"
         title="Y en a qui bossent là !"
         video-youtube-id="KN4hQKJ7jsU"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0323"
-        new="1"
+        new="0"
         resource="@raw/c_est_donc_ca_le_sentiment_de_reussite"
         title="C'est donc ça le sentiment de réussite"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0324"
-        new="1"
+        new="0"
         resource="@raw/c_est_une_forme_d_art"
         title="C'est une forme d'art ?"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat5_cult"
         custom_id="A0325"
-        new="1"
+        new="0"
         resource="@raw/ca_doit_etre_un_genre_de_coincidence"
         title="Ça doit être un genre de coincidence..."
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0326"
-        new="1"
+        new="0"
         resource="@raw/ce_couteau_c_est_le_cancer"
         title="Ce couteau c'est le cancer"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0327"
-        new="1"
+        new="0"
         resource="@raw/mais_meurs_putain"
         title="Mais meurs putain !"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0328"
-        new="1"
+        new="0"
         resource="@raw/qui_m_a_vu_la"
         title="Qui m'a vu là ?"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0329"
-        new="1"
+        new="0"
         resource="@raw/toucher_rectal_fait_par_un_boxeur"
         title="Toucher rectal fait par un boxeur"
         video-youtube-id="9Hb0A6NEXjY"/>
     <sound
         category="@string/cat3_gamesucks"
         custom_id="A0330"
-        new="1"
+        new="0"
         resource="@raw/un_trou_noir"
         title="Un trou noir..."
         video-youtube-id="9Hb0A6NEXjY"/>
+    <sound
+        category="@string/cat2_music"
+        custom_id="A0331"
+        new="1"
+        resource="@raw/tout_est_super_pourri"
+        title="Tout est super pourri"
+        video-youtube-id="rVleqJsAV3A"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0332"
+        new="1"
+        resource="@raw/david_goodenough"
+        title="David Goodenough"
+        video-youtube-id="tfYuIWo06Ng"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0333"
+        new="1"
+        resource="@raw/tirez_vous_de_mon_chateau"
+        title="Tirez-vous de mon château !"
+        video-youtube-id="VWP4SfxJ4Gg"/>
+    <sound
+        category="@string/cat4_rage"
+        custom_id="A0334"
+        new="1"
+        resource="@raw/on_s_en_branle"
+        title="On s'en branle !"
+        video-youtube-id="VWP4SfxJ4Gg"/>
+    <sound
+        category="@string/cat4_rage"
+        custom_id="A0335"
+        new="1"
+        resource="@raw/ca_n_est_pas_drole"
+        title="Ça n'est pas drôle !"
+        video-youtube-id="VWP4SfxJ4Gg"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0336"
+        new="1"
+        resource="@raw/sodomie_cerebrale"
+        title="Sodomie cérébrale"
+        video-youtube-id="VWP4SfxJ4Gg"/>
+    <sound
+        category="@string/cat3_gamesucks"
+        custom_id="A0337"
+        new="1"
+        resource="@raw/ta_mere_la_moldue"
+        title="Ta mère la moldue !"
+        video-youtube-id="Ugs9HASX4rA"/>
+    <sound
+        category="@string/cat3_gamesucks"
+        custom_id="A0338"
+        new="1"
+        resource="@raw/completement_bourre"
+        title="Complètement bourré"
+        video-youtube-id="Ugs9HASX4rA"/>
+    <sound
+        category="@string/cat3_gamesucks"
+        custom_id="A0339"
+        new="1"
+        resource="@raw/bouge_ton_cul"
+        title="Bouge ton cul"
+        video-youtube-id="Ugs9HASX4rA"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0340"
+        new="1"
+        resource="@raw/on_dirait_une_mst_qui_a_pris_vie"
+        title="On dirait une MST qui a pris vie"
+        video-youtube-id="Ugs9HASX4rA"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0341"
+        new="1"
+        resource="@raw/va_te_faire_foutre_2"
+        title="Vas te faire foutre (2)"
+        video-youtube-id="Ugs9HASX4rA"/>
+    <sound
+        category="@string/cat5_cult"
+        custom_id="A0342"
+        new="1"
+        resource="@raw/donnez_moi_mon_argent"
+        title="Donnez-moi mon argent !"
+        video-youtube-id="Ugs9HASX4rA"/>
 </sounds>
