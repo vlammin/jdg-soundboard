@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         Presage.getInstance().start();
         adUnit = new PresageInterstitial(this, "ea8d6c00-b1ef-0135-3928-0242ac120003");
         adUnit.setPresageInterstitialCallback(callback);
+        adUnit.load();
     }
 
     @Override
@@ -224,6 +225,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDashboardItemClick(int categoryId) {
+        /* Presage service */
+        if (adUnit.canShow()) {
+            adUnit.show();
+        }
+
         Intent i = new Intent(getBaseContext(), SoundboardActivity.class);
         i.putExtra("categoryId", categoryId);
         startActivityForResult(i, 0);
@@ -276,16 +282,6 @@ public class MainActivity extends AppCompatActivity {
             newsPubDate.setText(lastRssEntry.getFormattedPublishDate());
             newsPubDate.setGravity(Gravity.END);
         }
-    }
-
-    /**
-     * Presage service
-     **/
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        adUnit.adToServe();
     }
 
     private PresageInterstitial.PresageInterstitialCallback callback =
