@@ -1,8 +1,8 @@
 /*
- * SampleDetailDialog
+ * SoundDetailDialog
  * JDGSoundboard
  *
- * Copyright (c) 2017 Vincent Lammin
+ * Copyright (c) 2018 Vincent Lammin
  */
 
 package com.atmx.android.jdgspl.dialogs;

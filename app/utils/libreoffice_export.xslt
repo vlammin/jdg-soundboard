@@ -3,14 +3,13 @@
   libreoffice_export.xslt
   JDGSoundboard
 
-  Copyright (c) 2017 Vincent Lammin
+  Copyright (c) 2018 Vincent Lammin
   -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
-   xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
-   xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
-   exclude-result-prefixes="office table text">
+    xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+    exclude-result-prefixes="office table text">
 
     <xsl:output method = "xml" indent = "yes" encoding = "UTF-8" omit-xml-declaration = "no"/>
 
