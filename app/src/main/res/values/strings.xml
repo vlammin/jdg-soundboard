@@ -9,10 +9,10 @@
 <resources>
     <string name="about_title">À propos</string>
     <string name="about_label">À propos</string>
-    <string name="about_date">02/2018</string>
+    <string name="about_date">09/2018</string>
     <string name="add_favorite">Ajouter aux favoris</string>
     <string name="app_name">JDG Soundboard</string>
-    <string name="app_ver">v3.1.0</string>
+    <string name="app_ver">v3.2.0</string>
     <string name="author">Atmx (aka Vincent Lammin)</string>
 
     <string name="close">Fermer</string>
