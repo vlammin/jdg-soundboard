@@ -19,7 +19,6 @@ import android.os.AsyncTask.Status;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,10 +34,6 @@ import com.atmx.android.jdgspl.models.DbHelper;
 import com.atmx.android.jdgspl.objects.RssEntry;
 import com.atmx.android.jdgspl.tools.Player;
 
-import io.presage.Presage;
-import io.presage.ads.PresageInterstitial;
-
-/* Presage service */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
     private GetLastNews mAsyncHandler = new GetLastNews();
 
     private DbHelper dbHelper;
-
-    /* Presage service */
-    private PresageInterstitial adUnit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,13 +79,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-        /* Presage service */
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
-        adUnit = new PresageInterstitial(this, "ea8d6c00-b1ef-0135-3928-0242ac120003");
-        adUnit.setPresageInterstitialCallback(callback);
-        adUnit.load();
     }
 
     @Override
@@ -225,11 +210,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDashboardItemClick(int categoryId) {
-        /* Presage service */
-        if (adUnit.canShow()) {
-            adUnit.show();
-        }
-
         Intent i = new Intent(getBaseContext(), SoundboardActivity.class);
         i.putExtra("categoryId", categoryId);
         startActivityForResult(i, 0);
@@ -283,38 +263,4 @@ public class MainActivity extends AppCompatActivity {
             newsPubDate.setGravity(Gravity.END);
         }
     }
-
-    private PresageInterstitial.PresageInterstitialCallback callback =
-        new PresageInterstitial.PresageInterstitialCallback() {
-            @Override
-            public void onAdAvailable() {
-                Log.i("PRESAGE", "ad available");
-            }
-
-            @Override
-            public void onAdNotAvailable() {
-                Log.i("PRESAGE", "no ad available");
-            }
-
-            @Override
-            public void onAdLoaded() {
-                Log.i("PRESAGE", "an ad in loaded, ready to be shown");
-            }
-
-            @Override
-            public void onAdDisplayed() {
-                Log.i("PRESAGE", "ad displayed");
-            }
-
-            @Override
-            public void onAdClosed() {
-                Log.i("PRESAGE", "ad closed");
-            }
-
-            @Override
-            public void onAdError(int code) {
-                Log.i("PRESAGE", String.format("error with code %d", code));
-            }
-        };
-
 }
