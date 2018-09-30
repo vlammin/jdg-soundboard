@@ -43,7 +43,7 @@ public class SoundSection {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null || !(obj instanceof SoundSection))
+        if (!(obj instanceof SoundSection))
             return false;
 
         SoundSection other = (SoundSection) obj;

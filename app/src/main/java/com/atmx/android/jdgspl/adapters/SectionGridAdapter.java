@@ -59,7 +59,7 @@ abstract class SectionGridAdapter extends BaseAdapter {
         if (row == null)
             throw new IllegalArgumentException("Invalid row layout ID provided.");
 
-        ViewGroup holder = (ViewGroup) row.findViewById(itemHolderID);
+        ViewGroup holder = row.findViewById(itemHolderID);
         if (holder == null)
             throw new IllegalArgumentException("Item holder ID was not found in the row.");
         if (holder.getChildCount() == 0)
@@ -148,7 +148,7 @@ abstract class SectionGridAdapter extends BaseAdapter {
         if (realPosition > 0)
             lastSectionId = getSectionIndex(realPosition - 1);
 
-        TextView header = (TextView) convertView.findViewById(headerID);
+        TextView header = convertView.findViewById(headerID);
         if (getDataCount() > 0) {
             int newSectionId = getSectionIndex(realPosition);
             if (newSectionId != lastSectionId) {
@@ -164,7 +164,7 @@ abstract class SectionGridAdapter extends BaseAdapter {
                 header.setVisibility(View.GONE);
         }
 
-        ViewGroup itemHolder = (ViewGroup) convertView.findViewById(itemHolderID);
+        ViewGroup itemHolder = convertView.findViewById(itemHolderID);
         for (int i = 0; i < colCount; i++) {
             View child = itemHolder.getChildAt(i);
             if (child != null) {

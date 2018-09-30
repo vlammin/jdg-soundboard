@@ -92,7 +92,7 @@ public class SoundboardAdapter extends SectionGridAdapter {
     @Override
     protected void bindView(View convertView, int position) {
         final Sound sound = getItem(position);
-        Button button = (Button) convertView.findViewById(R.id.sample_button);
+        Button button = convertView.findViewById(R.id.sample_button);
         button.setText(sound.getTitle());
 
         button.setOnClickListener(new OnClickListener() {
