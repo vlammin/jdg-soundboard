@@ -3,7 +3,7 @@
   strings.xml
   JDGSoundboard
 
-  Copyright (c) 2018 Vincent Lammin
+  Copyright (c) 2019 Vincent Lammin
   -->
 
 <resources>
@@ -60,6 +60,8 @@
     <string name="set_as_alarm">Ajouter aux alarmes</string>
     <string name="set_as_notification">Mettre en notification</string>
     <string name="set_as_ringtone">Mettre en sonnerie</string>
+    <string name="share">Partager</string>
+    <string name="share_the_sound">Partager le son</string>
     <string name="sort">Trier</string>
     <string name="sort_default">Ordre alphabétique</string>
     <string name="sort_video_title">Vidéo (titre)</string>

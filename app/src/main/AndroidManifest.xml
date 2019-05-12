@@ -3,14 +3,16 @@
   AndroidManifest.xml
   JDGSoundboard
 
-  Copyright (c) 2018 Vincent Lammin
+  Copyright (c) 2019 Vincent Lammin
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="GoogleAppIndexingWarning"
     package="com.atmx.android.jdgspl"
     android:installLocation="auto"
-    android:versionCode="320"
-    android:versionName="3.2.0">
+    android:versionCode="330"
+    android:versionName="3.3.0">
 
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -19,7 +21,7 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
@@ -36,6 +38,22 @@
         <activity
             android:name=".SoundboardActivity"
             android:label="@string/app_name"/>
+
+        <provider
+            android:name="com.commonsware.cwac.provider.StreamProvider"
+            android:authorities="com.atmx.android.jdgspl"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="com.commonsware.cwac.provider.STREAM_PROVIDER_PATHS"
+                android:resource="@xml/paths"/>
+            <meta-data
+                android:name="com.commonsware.cwac.provider.USE_LEGACY_CURSOR_WRAPPER"
+                android:value="true"/>
+            <meta-data
+                android:name="com.commonsware.cwac.provider.USE_URI_FOR_DATA_COLUMN"
+                android:value="true"/>
+        </provider>
 
     </application>
 

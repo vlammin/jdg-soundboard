@@ -2,7 +2,7 @@
  * SoundDetailDialog
  * JDGSoundboard
  *
- * Copyright (c) 2018 Vincent Lammin
+ * Copyright (c) 2019 Vincent Lammin
  */
 
 package com.atmx.android.jdgspl.dialogs;
@@ -35,6 +35,7 @@ import com.atmx.android.jdgspl.objects.Favorite;
 import com.atmx.android.jdgspl.objects.Sound;
 import com.atmx.android.jdgspl.tools.Toaster;
 import com.atmx.android.jdgspl.tools.Utils;
+import com.commonsware.cwac.provider.StreamProvider;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -123,6 +124,13 @@ public class SoundDetailDialog extends DialogFragment {
                         }
                     });
                 }
+
+                View btnShare = view.findViewById(R.id.share);
+                btnShare.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View v) {
+                        shareSound(sound);
+                    }
+                });
             }
         }
         return builder.create();
@@ -285,6 +293,32 @@ public class SoundDetailDialog extends DialogFragment {
         dismiss();
 
         return true;
+    }
+
+    private void shareSound(Sound sound) {
+        Intent share = new Intent(Intent.ACTION_SEND);
+
+        share.setType("audio/mp3");
+        share.putExtra(Intent.EXTRA_STREAM, getSoundUri(sound));
+        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+        startActivity(Intent.createChooser(share, getString(R.string.share_the_sound)));
+    }
+
+    private Uri getSoundUri(Sound sound) {
+        String authority = getActivity().getPackageName();
+        Uri provider = Uri.parse("content://" + authority);
+
+        String path_name = getActivity()
+            .getApplicationContext()
+            .getResources()
+            .getResourceEntryName(sound.getResourceId());
+
+        return provider
+            .buildUpon()
+            .appendPath(StreamProvider.getUriPrefix(authority))
+            .appendPath("jdg_" + path_name + ".mp3")
+            .build();
     }
 
     /**

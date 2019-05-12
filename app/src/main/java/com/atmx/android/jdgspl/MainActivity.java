@@ -2,11 +2,12 @@
  * MainActivity
  * JDGSoundboard
  *
- * Copyright (c) 2018 Vincent Lammin
+ * Copyright (c) 2019 Vincent Lammin
  */
 
 package com.atmx.android.jdgspl;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     private DbHelper dbHelper;
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
