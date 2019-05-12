@@ -2,7 +2,7 @@
  * Toaster
  * JDGSoundboard
  *
- * Copyright (c) 2018 Vincent Lammin
+ * Copyright (c) 2019 Vincent Lammin
  */
 
 package com.atmx.android.jdgspl.tools;

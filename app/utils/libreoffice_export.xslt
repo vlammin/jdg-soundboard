@@ -3,7 +3,7 @@
   libreoffice_export.xslt
   JDGSoundboard
 
-  Copyright (c) 2018 Vincent Lammin
+  Copyright (c) 2019 Vincent Lammin
   -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
