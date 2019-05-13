@@ -90,7 +90,7 @@ public class RssEntry {
                 event = xpp.next();
             }
         } catch (Throwable t) {
-            Log.e(TAG, "Could not get last RSS news");
+            Log.e(TAG, "Could not get last RSS news", t);
         }
 
         return entry;

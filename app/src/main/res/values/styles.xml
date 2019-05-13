@@ -8,7 +8,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="titleTextColor">@color/yellow</item>
         <item name="subtitleTextColor">@color/yellow</item>
     </style>
@@ -113,14 +113,4 @@
     <style name="PlayerButton.Stop">
         <item name="android:src">@drawable/ic_player_stop</item>
     </style>
-
-    <!-- Presage Library -->
-    <style name="Presage.Theme.Transparent" parent="android:Theme">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:backgroundDimEnabled">false</item>
-    </style>
-
 </resources>

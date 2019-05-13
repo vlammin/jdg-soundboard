@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  strings.xml
+  JDGSoundboard
+
+  Copyright (c) 2019 Vincent Lammin
+  -->
+
+<resources>
+    <string name="url_rss">http://www.joueurdugrenier.fr/feed</string>
+</resources>
