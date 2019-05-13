@@ -18,6 +18,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.AsyncTask.Status;
 import android.os.Bundle;
+import android.support.v4.content.pm.PackageInfoCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
@@ -120,9 +121,10 @@ public class MainActivity extends AppCompatActivity {
                 getPackageName(), PackageManager.GET_META_DATA
             );
 
-            if (mPrefs.getLong("lastRunVersionCode", MODE_PRIVATE) < pInfo.versionCode) {
+            long versionCode = PackageInfoCompat.getLongVersionCode(pInfo);
+            if (mPrefs.getLong("lastRunVersionCode", MODE_PRIVATE) < versionCode) {
                 Editor editor = mPrefs.edit();
-                editor.putLong("lastRunVersionCode", pInfo.versionCode);
+                editor.putLong("lastRunVersionCode", versionCode);
                 editor.apply();
 
                 firstRun = true;
